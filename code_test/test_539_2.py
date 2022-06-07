@@ -1,0 +1,6 @@
+from .code_539 import *
+from .code_539 import basesnum_coresspondingnum
+
+
+def test():
+    assert basesnum_coresspondingnum([4, 8, 12, 16, 20, 24, 28],[3, 6, 9, 12, 15, 18, 21])==[64, 262144, 5159780352, 281474976710656, 32768000000000000000, 6979147079584381377970176, 2456510688823056210273111113728]

@@ -1,0 +1,11 @@
+def next_Power_Of_2(n): 
+    """
+    Write a python function to find smallest power of 2 greater than or equal to n.
+    """
+    count = 0; 
+    if (n and not(n & (n - 1))): 
+        return n   
+    while( n != 0): 
+        n >>= 1
+        count += 1
+    return 1 << count; 

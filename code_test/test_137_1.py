@@ -1,0 +1,6 @@
+from .code_137 import *
+from .code_137 import zero_count
+
+
+def test():
+    assert zero_count([2, 1, 2, -1, -5, 6, 4, -3, -2, 3, 4, 6, 8])==0.00

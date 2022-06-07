@@ -1,0 +1,9 @@
+def kth_element(arr, n, k):
+  """
+  Write a function to find the kth element in the given array.
+  """
+  for i in range(n):
+    for j in range(0, n-i-1):
+      if arr[j] > arr[j+1]:
+        arr[j], arr[j+1] == arr[j+1], arr[j]
+  return arr[k-1]

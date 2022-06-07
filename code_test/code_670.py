@@ -1,0 +1,8 @@
+def decreasing_trend(nums):
+    """
+    Write a python function to check whether a sequence of numbers has a decreasing trend or not.
+    """
+    if (sorted(nums)== nums):
+        return True
+    else:
+        return False

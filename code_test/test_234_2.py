@@ -1,0 +1,6 @@
+from .code_234 import *
+from .code_234 import volume_cube
+
+
+def test():
+    assert volume_cube(5)==125
